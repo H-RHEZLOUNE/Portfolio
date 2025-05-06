@@ -1,0 +1,733 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 208, 208);
+}
+
+
+/* Partie 1 */
+
+.Partie1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Logo{
+    width: 30%;
+}
+.Logo img{
+    margin-left: 8%;
+    width: 33%;
+    height: 100%;
+}
+
+.Menu{
+    height: 100%;
+    width: 70%;
+    margin-right: 2%;
+}
+
+.Ecriture_Menu{
+    height: 100%;
+    display: flex;
+    gap: 3%;
+    justify-content: end;
+    align-items: center;
+}
+
+.Menu a{
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: poppins;
+    border: 1px solid white;
+    white-space: nowrap;
+}
+
+.Menu a:hover{
+    opacity: 0.5;
+}
+
+/*Partie 2 contient Home*/
+
+.Partie_Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(211, 208, 208);
+    
+}
+
+.Ecriture_Home{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ecriture_Home h3{
+    font-size: 1.8rem;
+}
+
+.Ecriture_Home h2{
+    font-size: 2.5rem;
+}
+
+.Ecriture_Home h4{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Photo_Home{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.Photo_Home img{
+    width: 70%;
+    height: 100%;
+}
+
+.Logo_Partie_Home{
+    display: flex;
+    gap: 10%;
+    margin-left: -6%;
+}
+
+.Logo_Partie_Home img{
+    width: 100%;
+    height: 20%;
+    border-radius: 30%;
+    cursor: pointer;
+
+}
+
+/*Partie 3 contient AboutMe*/
+
+.Partie_AboutMe h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1%;
+    border: 4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Partie_AboutMe{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ecriture_AboutMe{
+    width: 80%;
+    height: 50%;
+    padding: 1%;
+    background-color: rgb(209, 207, 207);
+}
+
+.Ecriture_AboutMe span{
+    font-size: 1.3rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+/*Partie 4 contient Skills*/
+
+.Partie_Skills{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Partie_Skills h1{
+    text-align: center;
+    width: 12%;
+    height: 10%;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tout_Skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20%;
+    justify-content: center;
+}
+
+.Tout_Skills img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.Tout_Skills img:hover{
+    transform: scale(1.3);   
+}
+
+/*Partie 5 contient Education*/
+
+.Partie_Education{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.Ecriture_Education{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 4px solid black;
+}
+
+.Parcours{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Tout_Parcours{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    border-bottom: 4px solid rgb(211, 208, 208);
+    
+}
+
+.Annee_Parcours{
+    width: 24.5%;
+    height: 100%;
+    border-right: 9px solid rgb(211, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nom_Parcours{
+    width: 74.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+/*Partie 6 contient WorkExperience*/
+
+.Partie_WorkExperience{
+    width: 100%;
+    margin-top: 4%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.Ecriture_WorkExperience{
+    width: 16%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 4px solid black;
+}
+
+/*Partie 7 contient Projects*/
+
+.Partie_Projects{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 4%;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.Tout_Projets{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10%;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.Ecriture_Projects{
+    width: 16%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 4px solid white;
+    color: white;
+}
+
+.Partie_Projet_Projet{
+    cursor: pointer;
+}
+
+.Partie_Projet_Projet img{
+    width: 300px;
+    height: 200px;
+}
+
+.Partie_Projet_Projet:hover{
+    transform: scale(1.2);   
+}
+
+.Partie_Projet_Projet h3{
+    width: 292px;
+    height: 40px;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -1.2%;
+}
+
+/*Partie 8 contient Contact*/
+
+.Partie_Contact {
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Ecriture_Contact {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 4px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Form_Contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.Form_Contact input,
+.Form_Contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Form_Contact button {
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%; /* Largeur du bouton */
+    margin: 0 auto; /* Centre horizontalement */
+}
+
+.Form_Contact button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+/* copyright */
+
+.Copyright{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding: 0.2%;
+    text-align: center;
+}
+
+
+
+/* Format telephone */
+
+@media screen and (max-width: 390px) {
+   
+    /* Partie 1 */
+    .Partie1{
+        width: 100%;
+        height: 144px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+        justify-content: space-around;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .Logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Logo img{
+        width: 40%;
+        height: 100px;
+        margin-left: -2%;
+    }
+    
+    .Menu{
+        display: flex;
+        width: 90%;
+    }
+    
+    .Ecriture_Menu{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 9%;
+    }
+    
+    .Menu a{
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-family: poppins;
+        border: 1px solid white;
+        font-size: 0.75rem;    
+    }
+    
+    
+    /*Partie 2 contient Home*/
+
+    .Partie_Home{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(211, 208, 208); 
+    }
+
+    .Ecriture_Home{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 6px;
+    }
+
+    .Ecriture_Home h3{
+        font-size: 1rem;
+    }
+
+    .Ecriture_Home h2{
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 4%;
+    }
+
+    .Ecriture_Home h4{
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 6%;
+    }
+
+    .Photo_Home{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .Photo_Home img{
+        width: 70%;
+        height: 100%;
+    }
+
+    .Logo_Partie_Home{
+        display: flex;
+        gap: 10%;
+        margin-bottom: 8px;
+    }
+
+    .Logo_Partie_Home img{
+        width: 20px;
+        height: 20px;
+        border-radius: 30%;
+        cursor: pointer;
+    }
+
+    /*Partie 3 contient AboutMe*/
+
+    .Partie_AboutMe h1{
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        padding: 1%;
+        border: 4px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+    }
+
+    .Partie_AboutMe{
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 12px;
+    }
+
+    .Ecriture_AboutMe{
+        width: 80%;
+        height: 50%;
+        padding: 1%;
+        background-color: rgb(209, 207, 207);
+    }
+
+    .Ecriture_AboutMe span{
+        font-size: 1rem;
+        font-family: cursive;
+        text-align: center;
+    }
+
+
+    /*Partie 4 contient Skills*/
+
+    .Partie_Skills{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Partie_Skills h1{
+        text-align: center;
+        border: 4px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        padding: 1% 4%;
+    }
+
+    .Tout_Skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 20%;
+        justify-content: center;    
+    }
+
+    .Tout_Skills img{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+
+        /*Partie 5 contient Education*/
+
+    .Partie_Education{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+        gap: 4%;
+    }
+
+    .Ecriture_Education{
+        width: 140px;
+        padding: 1.5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        border: 4px solid black;
+    }
+
+    .Parcours{
+        margin-top: 4%;
+        width: 70%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Tout_Parcours{
+        width: 100%;
+        height: 24%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-bottom: 4px solid rgb(211, 208, 208); 
+    }
+
+    .Annee_Parcours{
+        font-size: 0.8rem;
+        width: 24.5%;       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Nom_Parcours{
+        font-size: 0.8rem;
+        width: 74.5%;
+        display: flex;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+
+    /*Partie 6 contient WorkExperience*/
+
+    .Partie_WorkExperience{
+        width: 100%;
+        margin-top: 10%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+    }
+
+    .Ecriture_WorkExperience{
+        width: 200px;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        border: 4px solid black;
+    }
+
+    /*Partie 7 contient Projects*/
+
+    .Partie_Projects{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        margin-top: 4%;
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .Tout_Projets{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 10%;
+        justify-content: center;
+        margin-top: 4%;
+    }
+
+    .Ecriture_Projects{
+        width: 120px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        align-items: center;
+        text-align: center;
+        font-size: 1,6rem;
+        font-weight: bolder;
+        border: 4px solid white;
+        color: white;
+    }
+
+    .Partie_Projet_Projet img{
+        width: 300px;
+        height: 200px;
+    }
+
+
+
+    .Partie_Projet_Projet h3{
+        width: 292px;
+        height: 40px;
+        text-align: center;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: -1.2%;
+    }
+
+
+}
